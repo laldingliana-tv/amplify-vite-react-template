@@ -28,7 +28,7 @@ function App() {
     <main className="p-10">
       <h1 className="text-2xl font-bold text-emerald-700 mb-3">My TODOS!</h1>
       <button
-        className="bg-emerald-700 text-white p-2 rounded-md w-full"
+        className="bg-emerald-700 text-white p-2 rounded-md w-full my-3"
         onClick={createTodo}
       >
         + new
@@ -45,7 +45,7 @@ function App() {
         ))}
       </ul>
       <button
-        className="bg-emerald-700 text-white p-2 rounded-md w-full"
+        className="bg-red-700 text-white p-2 rounded-md w-full  my-3"
         onClick={signOut}
       >
         Sign out
