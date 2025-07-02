@@ -21,7 +21,7 @@ function App() {
   }, []);
 
   function createTodo() {
-    console.log('testsss');
+    console.log('testss');
     client.models.Todo.create({ content: window.prompt('Todo content') });
   }
 
